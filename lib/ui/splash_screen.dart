@@ -69,14 +69,13 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   Widget build(BuildContext context) {
     print("Next Screen = ${nextScreen.toString()}");
     return AnimatedSplashScreen(splash: Lottie.network("https://assets8.lottiefiles.com/datafiles/98a3d0add75fc3c86f6d6f9b148c111e/Newspaper animation.json",
-      repeat: true, fit: BoxFit.contain, alignment: Alignment.center, height: 500 , width: 500,),
+      repeat: true, fit: BoxFit.contain),
     //Icon(Icons.newspaper, color: Colors.white, size: 150.h),
       duration: 3000,
       splashIconSize: double.maxFinite,
       nextScreen: nextScreen,
       backgroundColor: Color(0xFF5C6BC0),//primaryC,
       pageTransitionType: PageTransitionType.fade,
-      // splashIconSize: 600,
       //disableNavigation: true,
     );
   }

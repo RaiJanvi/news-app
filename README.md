@@ -1,6 +1,6 @@
-# user_management_module
+# news_app
 
-A new Flutter project.
+An application for news.
 
 ## Getting Started
 
